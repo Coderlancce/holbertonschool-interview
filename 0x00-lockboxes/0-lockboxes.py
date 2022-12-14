@@ -1,10 +1,17 @@
 #!/usr/bin/python3
 """
+Check if all boxes can opened
 """
 
 
 def canUnlockAll(boxes):
     """
+    RULES:
+    boxes is a list of lists
+    A key with the same number as a box opens that box
+    You can assume all keys will be positive integers
+    The first box boxes[0] is unlocked
+    Return True if all boxes can be opened, else return False
     """
     key_list = boxes[0].copy()
     true_keys = [0]
