@@ -8,11 +8,11 @@
 * Return: pointer to nre node or NULL on frailure
 */
 
-binary_tree_s *binary_tree_node(binary_tree_s *parent, int value)
+binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
-  binary_tree_s *new;
+  binary_tree_t *new;
   
-  new = malloc(sizeof(binary_tree_s));
+  new = malloc(sizeof(binary_tree_t));
   if (new == NULL)
     return (NULL);
     
