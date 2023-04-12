@@ -15,7 +15,7 @@ def minOperations(n):
 
     while sum < n:
         if n % sum == 0:  # calculate if n is multiple of them
-            carrier = sum # save the last copy
+            carrier = sum  # save the last copy
             sum *= 2  # paste
             operations += 1  # sum the copy operation
         else:  # if no are multiple i need a mulple
