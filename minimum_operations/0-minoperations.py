@@ -9,7 +9,7 @@ def minOperations(n):
     """
     accum = 0
     while n > 1:
-        primo = getprimo(n)
+        primo = getPrimo(n)
         n /= primo
         accum += primo
     
