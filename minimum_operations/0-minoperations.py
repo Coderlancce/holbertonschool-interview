@@ -12,7 +12,7 @@ def minOperations(n):
     sum = 1
     carrier = 0
 
-    while sumation < n:
+    while sum < n:
         if n % sum == 0: #calculate if n is multiple of them
             carrier = sum # save the last copy
             sum *= 2 # paste
