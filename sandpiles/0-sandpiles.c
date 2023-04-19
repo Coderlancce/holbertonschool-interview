@@ -6,6 +6,7 @@
  * @grid: sandpile.
  * Return: no return.
  */
+
 void print_sandpile(int grid[3][3])
 {
 	int i;
